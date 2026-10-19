@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #__next { height: 100%; }
+body { font-family: theme('fontFamily.body'); background: theme('colors.bg-cream'); color: theme('colors.brand-text'); }
+
+/* simple utility for product image container */
+.product-img { @apply rounded shadow-md bg-white; }
